@@ -85,7 +85,7 @@ layout: home
 			<ul>
 			    {% for entry in item.service %} 
 					{% for record in entry.aws %}
-						<li ><img src="/assets/img/cloudproviders/aws/{{record.icon}}" alt="{{record.name}}" > <a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a></li>
+						<li ><img src="assets/img/cloudproviders/aws/{{record.icon}}" alt="{{record.name}}" > <a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a></li>
 					{% endfor %}	
 				{% endfor %}	
 			</ul>
@@ -94,7 +94,7 @@ layout: home
 			<ul>
 			    {% for entry in item.service %} 
 					{% for record in entry.azure %}
-						<li><img src="/assets/img/cloudproviders/azure/{{record.icon}}" alt="{{record.name}}"  ><a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a></li>
+						<li><img src="assets/img/cloudproviders/azure/{{record.icon}}" alt="{{record.name}}"  ><a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a></li>
 					{% endfor %}	
 				{% endfor %}	
 			</ul>
@@ -103,7 +103,7 @@ layout: home
 			<ul>
 			    {% for entry in item.service %} 
 				{% for record in entry.google %}
-					<li><img src="/assets/img/cloudproviders/google/{{record.icon}}" alt="{{record.name}}" ><a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a></li>
+					<li><img src="assets/img/cloudproviders/google/{{record.icon}}" alt="{{record.name}}" ><a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a></li>
 				{% endfor %}	
 				{% endfor %}	
 			</ul>
@@ -112,7 +112,7 @@ layout: home
 			<ul>
 			    {% for entry in item.service %} 
 				{% for record in entry.ibm %}
-						<li><img src="/assets/img/cloudproviders/ibm/{{record.icon}}" alt="{{record.name}}" ><a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a></li>
+						<li><img src="assets/img/cloudproviders/ibm/{{record.icon}}" alt="{{record.name}}" ><a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a></li>
 				{% endfor %}	
 				{% endfor %}	
 			</ul>
@@ -121,7 +121,7 @@ layout: home
 			<ul>
 			    {% for entry in item.service %} 
 					{% for record in entry.oracle %}
-							<li ><img src="/assets/img/cloudproviders/oracle/{{record.icon}}" alt="{{record.name}}" ><a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a></li>
+							<li ><img src="assets/img/cloudproviders/oracle/{{record.icon}}" alt="{{record.name}}" ><a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a></li>
 					{% endfor %}	
 				{% endfor %}	
 			</ul>
@@ -130,7 +130,7 @@ layout: home
 			<ul>
 			    {% for entry in item.service %} 
 					{% for record in entry.alibaba %}
-							<li><img src="/assets/img/cloudproviders/alibaba/{{record.icon}}" alt="{{record.name}}" ><a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a></li>
+							<li><img src="assets/img/cloudproviders/alibaba/{{record.icon}}" alt="{{record.name}}" ><a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a></li>
 					{% endfor %}	
 				{% endfor %}	
 			</ul>
@@ -140,7 +140,7 @@ layout: home
 			    {% for entry in item.service %} 
 					{% for record in entry.huawei %}
 							<li>
-								<img src="/assets/img/cloudproviders/huawei/{{record.icon}}" alt="{{record.name}}">
+								<img src="assets/img/cloudproviders/huawei/{{record.icon}}" alt="{{record.name}}">
 								<a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a>
 							</li>
 					{% endfor %}	
