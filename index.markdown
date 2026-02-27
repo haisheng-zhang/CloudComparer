@@ -56,6 +56,9 @@ layout: home
 	        <th style="width:7%">Category</th>
             <th style="width:10%">Service</th>
             <th>
+              <img  src="assets/img/logo/huawei.png" alt="Huawei Cloud"/>
+            </th>
+            <th>
               <img  src="assets/img/logo/msazure.svg" alt="Microsoft Azure Log"/>
             </th>
             <th>
@@ -65,9 +68,6 @@ layout: home
               <img  src="assets/img/logo/google.svg" alt="Google Cloud Platform Logo" />
             </th>
             <th>
-              <img  src="assets/img/logo/huawei.png" alt="Huawei Cloud"/>
-            </th>
-            <th>
               <img src="assets/img/logo/alibaba.png" alt="Alibaba Cloud Logo"/>
             </th>
   </tr>
@@ -75,6 +75,17 @@ layout: home
 	<tr>
 		<td>{{item.category}}</td>
 		<td>{{item.subcategory}}</td>
+		<td>
+			<ul>
+			    {% for entry in item.service %} 
+					{% for record in entry.huawei %}
+							<li>
+								<img src="assets/img/cloudproviders/huawei/{{record.icon}}" alt="{{record.name}}"><a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a>
+							</li>
+					{% endfor %}	
+				{% endfor %}	
+			</ul>
+		</td>
 		<td>
 			<ul>
 			    {% for entry in item.service %} 
@@ -99,17 +110,6 @@ layout: home
 				{% for record in entry.google %}
 					<li><img src="assets/img/cloudproviders/google/{{record.icon}}" alt="{{record.name}}" ><a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a></li>
 				{% endfor %}	
-				{% endfor %}	
-			</ul>
-		</td>
-		<td>
-			<ul>
-			    {% for entry in item.service %} 
-					{% for record in entry.huawei %}
-							<li>
-								<img src="assets/img/cloudproviders/huawei/{{record.icon}}" alt="{{record.name}}"><a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a>
-							</li>
-					{% endfor %}	
 				{% endfor %}	
 			</ul>
 		</td>
