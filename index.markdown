@@ -6,7 +6,7 @@ layout: home
 ---
 <head>
     <meta charset="utf-8">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
+    <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="follow,index">
