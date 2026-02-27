@@ -535,9 +535,6 @@ services:
             ref: https://www.alibabacloud.com/product/swas#product-details
             icon: alibaba.png
       - huawei:
-          - name: Hyper Elastic Cloud Server
-            ref: https://www.huaweicloud.com/product/hecs.html
-            icon: ecs.png
           - name: Huawei Cloud Flexus
             ref: https://www.huaweicloud.com/intl/en-us/product/flexus.html
             icon: none.png
@@ -1001,7 +998,7 @@ services:
           - name: GaussDB(for openGauss)
             ref: https://www.huaweicloud.com/intl/en-us/product/gaussdb.html
             icon: GaussDBforOpenGauss.png
-          - name: none.png
+          - name: GaussDB for MySQL
             ref: https://www.huaweicloud.com/intl/en-us/product/gaussdb_mysql.html
             icon: GaussDBforMysql.png
           - name: RDS for MySQL
@@ -3569,11 +3566,6 @@ services:
           - name: Conversation Bot Service
             ref: https://www.huaweicloud.com/intl/en-us/product/cbsqa.html
             icon: cbsqa.png
-
-          - name: Natural Language Processing
-            ref: https://www.huaweicloud.com/product/nlplu.html
-            icon: nlp.png
-
           - name: Text to Speech
             ref: https://www.huaweicloud.com/product/tts.html
             icon: tts.png
@@ -3623,7 +3615,7 @@ services:
             icon: none.png
       - huawei:
           - name: Pangu Models & ModelArts Studio (MaaS)
-            ref: https://www.huaweicloud.com/intl/en-us/product/modelarts/studio.html
+            ref: https://www.huaweicloud.com/intl/en-us/product/modelarts.html
             icon: none.png
 
 
